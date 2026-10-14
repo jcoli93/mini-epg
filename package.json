@@ -1,0 +1,24 @@
+{
+  "name": "mini-epg",
+  "version": "0.3.1",
+  "description": "Electronic Program Guide service (training fixture)",
+  "main": "src/server.js",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:e2e": "playwright test",
+    "import": "node src/legacy/importer.js data/sample-feed.xmltv.txt /tmp/schedule.out.json"
+  },
+  "jest": { "testEnvironment": "node", "testMatch": ["**/tests/**/*.test.js"] },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}

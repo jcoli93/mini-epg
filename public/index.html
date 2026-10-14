@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mini-epg · Guia de Programação</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; background: #0e0e1e; color: #eee; }
+    header { padding: 16px 24px; display: flex; gap: 16px; align-items: center; border-bottom: 1px solid #333; }
+    header h1 { font-size: 20px; margin: 0; color: #00c7b2; }
+    #search { flex: 1; max-width: 360px; padding: 8px; border-radius: 6px; border: 1px solid #444; background: #1a1a2e; color: #eee; }
+    main { display: grid; grid-template-columns: 260px 1fr; }
+    #channels { list-style: none; margin: 0; padding: 0; border-right: 1px solid #333; }
+    #channels li { padding: 10px 16px; cursor: pointer; display: flex; justify-content: space-between; }
+    #channels li.active { background: #1a1a2e; }
+    .star { background: none; border: none; color: #888; font-size: 18px; cursor: pointer; }
+    .star.on { color: #f5c518; }
+    #grid { padding: 16px 24px; }
+    .prog { padding: 8px 0; border-bottom: 1px solid #222; }
+    .prog .time { color: #00c7b2; width: 110px; display: inline-block; }
+    .rating { font-size: 11px; padding: 1px 6px; border-radius: 4px; background: #333; margin-left: 8px; }
+    #results { padding: 0 24px; color: #aaa; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Guia de Programação</h1>
+    <input id="search" type="search" placeholder="Buscar canal ou programa…" aria-label="Buscar">
+  </header>
+  <div id="results" data-testid="search-results"></div>
+  <main>
+    <ul id="channels" data-testid="channel-list"></ul>
+    <section id="grid" data-testid="schedule-grid"><p>Selecione um canal.</p></section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

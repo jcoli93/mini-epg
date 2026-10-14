@@ -1,0 +1,10 @@
+[
+  { "id": "spesp", "number": 101, "name": "São Paulo Esporte", "genre": "sports" },
+  { "id": "notbr", "number": 102, "name": "Canal Notícias BR", "genre": "news" },
+  { "id": "infmu", "number": 103, "name": "Infantil Mundo", "genre": "kids" },
+  { "id": "cinec", "number": 104, "name": "Cine Clássico", "genre": "movies" },
+  { "id": "novel", "number": 105, "name": "Novelas & Cia", "genre": "drama" },
+  { "id": "musbr", "number": 106, "name": "Música Brasil", "genre": "music" },
+  { "id": "docnt", "number": 107, "name": "Documentário Natureza", "genre": "documentary" },
+  { "id": "rioag", "number": 108, "name": "Rio Agora", "genre": "regional" }
+]

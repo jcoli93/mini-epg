@@ -1,0 +1,9 @@
+<!-- sample provider feed used to test the importer by hand -->
+<programme channel="spesp" start="20261020200000 -0300" stop="20261020220000 -0300" rating="L" live="1">FUTEBOL AO VIVO</programme>
+<programme channel="spesp" start="20261020213000 -0300" stop="20261020230000 -0300" rating="L">Resenha Esportiva (R)</programme>
+<programme channel="notbr" start="20261020190000 -0300" stop="20261020210000 -0300" rating="10" live="1">  Jornal   da Noite </programme>
+<programme channel="novel" start="20261020140000 -0300" stop="20261020150000 -0300" rating="10">Vale a Pena Ver de Novo (R)</programme>
+<programme channel="novel" start="20261020210000 -0300" stop="20261020220000 -0300" rating="16">Novela das Nove</programme>
+<programme channel="cinec" start="20261020220000 -0300" stop="20261021000000 -0300" rating="18">TROPA DE ELITE</programme>
+<programme channel="xxxxx" start="20261020100000 -0300" stop="20261020110000 -0300">Unknown channel</programme>
+this line is garbage
